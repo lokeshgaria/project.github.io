@@ -1,0 +1,472 @@
+/********           Universal style        ******************/
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#placeholder{
+    color: grey;
+    font-weight: lighter;
+}
+
+
+ /********************  Header Section  *******************/
+ header{
+     display: flex;
+     background-color: #001e57;
+     color: white;
+      
+ }
+
+ #Cname{
+      
+     font-weight: lighter;
+ }
+ #head1{
+
+   background-color: #01163d;
+   height: 40px;
+   width: 250px;
+   position: relative;
+   padding-top: 12px;
+   text-align: center;
+ }
+ .right{
+     position: relative;
+     margin-left: 50%;
+     padding-right: 9px;
+     padding-top: 12px;
+ }
+ i{
+    color: #94df33;
+ }
+
+ /***********************  Navbar         ************************/
+ .navbar{
+     
+     
+    display: flex;
+ }
+ ul{
+     
+     padding: 1% 0%;
+     position: relative;
+     left: 30%;
+ }
+  
+ li{
+     display: inline;
+ }
+  li a{
+     font-weight: bold;
+     text-decoration: none;
+     margin: 11px;
+     font-size: small;
+     color: black;
+     
+ }
+
+ li a:hover{
+     color: #8cb654;
+     border-bottom: 2px solid #8cb654 ;
+     transition: 0.4s;
+ }
+ #logo{
+     display: inline;
+     margin-left: 72px;
+     width: 137px;
+     height: 54px;
+     margin-top: 8px;
+       } 
+
+ .register{
+     background-color: #94df33 ;
+     color: white;
+     border-radius: 3px;
+     width: 122px;
+     height: 52px;
+     text-transform: uppercase;
+     border: #8cb654;
+     font-weight: bold;
+     margin-left: 33px;
+     }
+
+     .register:hover{
+         background-color:#8cb654 ;
+         cursor: pointer;
+     }
+
+     /******************   Section 1  *******************/
+     #first{
+       width: 100%;
+       height: 100vh;
+       filter: brightness(75%);
+       
+     }
+     #backImg{
+          
+         height: 100vh;
+        
+     }
+     #inside-img{
+         position: relative;
+         top: -500px;
+         left: 7%;
+         border-left: 15px solid;
+         border-top: 15px solid;
+         border-bottom: 15px solid;
+         background: none;
+         color: white;
+         font-size: large;
+         padding: 3% 1%;
+         
+         width: 16%;
+
+     }
+
+      
+     #inside-img p {
+    margin: 12px;
+    width: 451px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+     #inside-img span{
+         font-size: 3.5rem;
+         font-weight: bolder;
+         
+     }
+
+     #btn{
+         
+        left: 145px;
+        position: relative;
+        top: -558px;
+        border: 24px solid #8b8a88;
+        width: 187px;
+        border-right: "none";
+        height: 99px;
+        border-top: 'none';
+     }
+
+     .clip{
+        position: relative;
+        top: -538px;
+        width: 58px;
+        left: 154px;
+        margin-right: 20px;
+        filter: invert(100%);
+     }
+  /******************   Section 2  *******************/   
+  #section2{
+    padding: 3% 2%;
+  }
+  .second img{
+    width: 40%;
+    height: 49vh;
+    margin: 4% 2%;
+    border-radius: 4px;
+    position: relative;
+    left: 5%;
+    -webkit-box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+}
+
+.sec2-para{
+      color: rgb(9, 9, 129);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 3.5rem;
+    
+      letter-spacing: 2px;
+  }
+
+/*****************   SECCTION 3  ********************/
+ #section3{
+     
+    padding: 2% 3%;
+ }
+ .card{
+    
+   display: flex;
+   padding: 5% 2%;
+ }
+ .card-element{
+    border-bottom: 4px solid rgb(9, 9, 129);
+    width: 20%;
+    text-align: center;
+    height: 50vh;
+    margin-left: 3%;
+    background-color: #f3f5f9;
+    padding: 2% 3%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 30px -8px rgba(0,0,0,0.75);
+ }
+ .card-element h5{
+     padding: 2% 3%;
+     margin-top: 15%;
+     font-weight: lighter;
+     letter-spacing: 1px;
+ }
+ .card-element h4{
+     font-weight: bold;
+     font-size: large;
+ }
+ .card-element:hover{
+     transform: translateY(-25px);
+     transition: 0.5s;
+     border-bottom: 4px solid #94df33;
+       
+}
+ 
+ .card-element i{
+     margin-top: 10%;
+     color: rgb(11, 56, 138);
+     margin-bottom: 15%;
+ }
+ .card-element i:hover{
+    color: #94df33;
+}
+ 
+/*******************       section 4    ******************/
+#section-4{
+     background: linear-gradient(#010d3fc5, #010d3fe1), url("https://images.pexels.com/photos/296242/pexels-photo-296242.jpeg?auto=compress&cs=tinysrgb&dpr=2");
+     background-size: 100%;
+     height: 70vh;
+    padding: 4% 0%; 
+    
+}
+#img-4{
+    width: 100%;
+    height: 500px;
+     
+} 
+
+#aboutus{
+    background: #ffffff;
+    position: relative;
+    left: 45%;
+    top: 4%;
+    width: 40%;
+    padding:  4% 3%;
+    height: 30vh;
+}
+#aboutus h4{
+    font-size: 2rem;
+    color: #052c75;
+    border-bottom: 2px solid #001e57;
+    width: 30%;
+}
+#aboutus h6{
+    font-size: 16px;
+    margin-top: 9%;
+    margin-right: 6%;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: lighter;
+
+}
+#aboutus a{
+    color: #94df33;
+     
+    font-weight: bold;
+    position: relative;
+    top: 39px;
+    font-size: small;
+}
+/*******************       section 5    ******************/
+#section-5{
+ 
+    padding: 4% 0%; 
+    display: flex;
+}
+#section-5 img{
+   
+    width: 600px;
+    height: 100vh;
+    display: inline;
+     
+}
+
+#content{
+     display: inline; 
+     background-color: white;
+     padding: 2% 4%;   
+}
+#content  p{
+
+    font-weight: lighter;
+    color:grey;
+    font-size: smaller;
+    padding: 5% 1%;
+}
+#content h3 {
+    font-size: 3rem;
+    color: #052c75;
+    border-bottom: 2px solid #001e57;
+    
+}
+#content h6{
+    padding: 2%;
+    font-size: 18px;
+    text-align: start;
+}
+#content i{
+    margin: 0px;
+    
+}
+/*************** Section 6 **************/
+.green{
+    background-color: #8db655;
+    padding: 5% 7%;
+    color: white;
+    font-size: 2rem;
+}
+
+.green button{
+    background-color: white ;
+    color: black;
+    border-radius: 3px;
+    width: 122px;
+    height: 52px;
+    text-transform: uppercase;
+    border: #8cb654;
+    font-weight: bold;
+    margin-left: 33px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+    }
+    .green button:hover{
+        background-color: rgb(223, 209, 209);
+    }
+/***************  Footer  **************/
+.footer{
+    display: flex;
+    background-color: #030e22;
+    padding: 4% 0%; 
+     
+}
+.footer-item{
+   padding: 3% 3%;
+    width: 520px;
+    height: 250px;
+    border-right: 1px solid white;
+    color: white;
+}
+.footer img{
+width: 200px;
+position: relative;
+top: 19%;
+left: 25%;
+}
+#Aboutus h2{
+    border-bottom: 1px solid #94df33;
+    padding-bottom: 9px;
+    width: 30%;
+}
+#Aboutus h5{
+    padding:7% 0% ;
+     margin: 4% 0%;
+     font-weight: lighter;
+     line-height: 22px;
+}
+#Aboutus button{
+    background: none;
+    border: 1px solid white;
+    width: 150px;
+    height: 42px;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4%;
+    color: white;
+}
+#contactus h2{
+    border-bottom: 1px solid #94df33;
+    padding-bottom: 9px;
+    width: 30%;
+}
+#contactus p{
+    color: #94df33;
+    padding:  5% 2%;
+}
+#contactus h5{
+padding:2% 0% ;
+margin:  0%;
+font-weight: lighter;
+line-height: 22px;
+}
+#contactus h3{
+    padding:5% 0% ;
+    
+    font-weight: lighter;
+     
+    }
+
+/******     footer(copywrite guidlines               ****/
+footer{
+    color: white;
+    background-color: #030e22;
+    padding: 5% 6%;
+}
+footer div{
+    border-top: 1px solid white;
+    padding: 3% 0%;
+}
+footer p{
+    float: right;
+}
+footer span{
+    text-transform: uppercase;
+    color: #94df33;
+}
+@media (max-width:450px){
+    header , div{
+    width:1000px;
+
+    margin: 0;
+    padding: 0;    
+   }
+   .second img{
+      width: 100%;
+      height: 60vh;
+  }   
+  .card{
+    
+    display: block;
+    padding: 4% 0 ;
+  }
+  .card-element{
+      width: 100%;
+      height: 100vh;
+
+  } 
+  .card-element h5{
+   
+    margin-top: 15%;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.card-element h4{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.card-element i{
+    margin-top: 10%;
+     
+    color: rgb(11, 56, 138);
+    margin-bottom: 15%;
+}
+}
+
+
+
+
